@@ -1,0 +1,7 @@
+---
+applications:
+- name: status
+  command: node app.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  env:
+    HOME_SERVICE: https://home.apps.pcfone.io
